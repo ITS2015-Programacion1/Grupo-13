@@ -97,7 +97,7 @@ def iniciar_juego():
             self.escala = 0.75
             self.x = 290
             self.y = pilas.azar(-200, 200)
-            self.velocidad = pilas.azar(30, 70) / 4.0
+            self.velocidad = pilas.azar(40, 80) / 4.0
             self.radio_de_colision= 20
 
         def actualizar(self):
